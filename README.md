@@ -1,1 +1,1 @@
-# avaj-launcher
+# AvajLauncher
