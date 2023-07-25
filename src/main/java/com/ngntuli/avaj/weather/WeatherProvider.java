@@ -12,7 +12,19 @@ public final class WeatherProvider {
 		return instance;
 	}
 
-	public static String[] getWeather() {
-		return weather;
+	public static String getWeather() {
+		int i = 0;
+		int len = 1;
+		while (i < len) {
+			double randD = Math.random() * 10;
+			int randI = (int) randD;
+			if (randI < 4) {
+				return weather[randI];
+			} else {
+				len++;
+			}
+			i++;
+		}
+		return null;
 	}
 }
