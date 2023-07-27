@@ -12,7 +12,7 @@ public final class WeatherProvider {
 		return instance;
 	}
 
-	public static String getWeather() {
+	public String getWeather() {
 		int i = 0;
 		int len = 1;
 		while (i < len) {
@@ -25,6 +25,6 @@ public final class WeatherProvider {
 			}
 			i++;
 		}
-		return null;
+		return "Useless return";
 	}
 }
