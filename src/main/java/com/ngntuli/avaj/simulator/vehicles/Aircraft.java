@@ -19,6 +19,11 @@ public abstract class Aircraft {
 
 	public abstract long getId();
 
-	public abstract boolean isLanding(int height);
+	protected boolean isLanding(int height) {
+		if (height < 1) {
+			return true;
+		}
+		return false;
+	}
 
 }
