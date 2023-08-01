@@ -19,4 +19,6 @@ public abstract class Aircraft {
 
 	public abstract long getId();
 
+	public abstract boolean isLanding(int height);
+
 }
