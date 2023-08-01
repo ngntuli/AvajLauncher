@@ -26,4 +26,6 @@ public abstract class Aircraft {
 		return false;
 	}
 
+	protected abstract void setHeight(int height, int msgIndex);
+
 }
